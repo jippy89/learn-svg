@@ -107,5 +107,19 @@
           <path stroke-linecap="square" d="M5 60 1215 0"></path>
         </g>
       </svg>
+
+      <br><br><br>
+
+      <!-- 11. Blur Effects -->
+      <svg height="110" width="110">
+        <defs>
+          <filter id="f1" x="0" y="0">
+            <feGaussianBlur source="SourceGraphic" stdDeviation="15"></feGaussianBlur>
+          </filter>
+        </defs>
+
+        <rect width="90" height="90" stroke="green" stroke-width="4" fill="blue" filter="url(#f1)"></rect>
+      </svg>
+
   </body>
 </html>
